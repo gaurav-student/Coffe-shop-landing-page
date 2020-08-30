@@ -1,0 +1,96 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header
+{
+    background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)),url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+nav
+{
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+nav ul
+{
+    float: right;
+    margin: 0;
+    padding-right: 0px;
+    /*font-family: 'Bree Serif', serif;*/
+}
+nav ul li
+{
+    display:inline-flex;
+    padding: 16px 22px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+/*nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}*/
+nav ul li a:hover
+{
+    color: black;
+    background-color: white;
+}
+.logo
+{
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
+    filter: invert(1);
+}
+h1
+{
+    font-size:58px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 340px;
+    color: #fff;
+}
+.description
+{
+    width:80%;
+    margin:50px auto;
+}
+p
+{
+font-size: 18px;
+line-height: 28px;
+color:#333;
+text-align: justify;
+}
+nav.black
+{
+    background: #000;
+}
